@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Yaro.ch CV</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="SitePoint" />
+
+    <script
+      src="https://kit.fontawesome.com/ce5d6ddd47.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&family=Montserrat:ital,wght@0,300;0,400;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <ul class="navigation">
+        <li class="navigation__item">
+          <a class="nav__text" href="#information">Information</a>
+        </li>
+        <li class="navigation__item">
+          <a class="nav__text" href="#skills">Skills</a>
+        </li>
+        <li class="navigation__item">
+          <a class="nav__text" href="#contact">Contact</a>
+        </li>
+        <li class="navigation__item">
+          <a class="nav__text" href="#links">Links</a>
+        </li>
+        <li class="navigation__item">
+          <a class="nav__text" href="#code-example">Code example</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="head">
+      <div class="wrapper head__wrapper">
+        <div class="head__logo">
+          <img class="head__img" src="./img/logPhoto.jpg" alt="logPhoto" />
+        </div>
+        <div class="head__name">
+          <h1>Yarovenko Dmitry</h1>
+          <h3>Student of Brest State Technical University (BrSTU)</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-information">
+      <div class="wrapper my-information__wrapper">
+        <div class="two-column">
+          <div class="column-item first">
+            <div class="info-item">
+              <h2 id="information">Information</h2>
+
+              <div class="info-item__column">
+                <div class="info-item__block">
+                  <h4>About me</h4>
+                  <p>
+                    Hi, I am currently learning HTML and CSS.<br />
+                    I am a little bit into photo and video editing.
+                  </p>
+                </div>
+
+                <div class="info-item__block">
+                  <h4>Language</h4>
+                  <p>Eanglish: A2</p>
+                </div>
+
+                <div class="info-item__block">
+                  <h4>Education</h4>
+                  <p>
+                    I am studying at BSTU to become a systems engineer.<br />
+                    I will graduate in 2023. Besides studying at the
+                    university,<br />
+                    I am trying to learn CSS and HTML.
+                  </p>
+                </div>
+              </div>
+              <!-- item-column -->
+            </div>
+
+            <div class="info-item">
+              <h2 id="code-example">Code example</h2>
+
+              <p>
+                <br />example from codewars
+                <a
+                  href="https://www.codewars.com/kata/5899642f6e1b25935d000161/train/javascript"
+                  target="_blank"
+                  ><span class="bold-link">task</span></a
+                >: Merge two sorted arrays into one (JS)
+              </p>
+              <div class="info-item__insert">
+                <pre>
+                    <code>
+  function mergeArrays(arr1, arr2) {
+    return (Array.from(new Set([...arr1, ...arr2])) ).sort((a,b) => a - b);
+  }
+                    </code>
+                  </pre>
+              </div>
+            </div>
+          </div>
+          <!-- first-column-->
+
+          <div class="column-item second">
+            <div class="info-item">
+              <h2 id="skills">Skills</h2>
+
+              <div class="info-item__block">
+                <h4>Programming</h4>
+
+                <ul class="info-item__list">
+                  <li>C++</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                </ul>
+              </div>
+              <div class="info-item__block">
+                <h4>Other skills</h4>
+                <ul class="info-item__list">
+                  <li>GitHub</li>
+                  <li>Photoshop</li>
+                  <li>SonyVegas</li>
+                  <li>Filmora</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-item contact">
+              <h2 id="contact">Contact</h2>
+
+              <div class="info-item__block">
+                <div class="info-block__link">
+                  <div class="contact__link">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <a href="tel:+375333036877" target="_blank"
+                      >+375 (33) 3036877</a
+                    >
+                  </div>
+                </div>
+                <div class="info-block__link">
+                  <div class="contact__link">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <a href="mailto:yaro.ch@mail.ru" target="_blank"
+                      >yaro.ch@mail.ru</a
+                    >
+                  </div>
+                </div>
+                <div class="info-block__link">
+                  <div class="contact__link">
+                    <i class="fa fa-map" aria-hidden="true"></i>
+                    <a
+                      href="https://goo.gl/maps/HqZD8Ri5BSpU2pBL7"
+                      target="_blank"
+                      >Belarus, Brest</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <h2 id="links">Links</h2>
+
+              <div class="info-item__block links">
+                <div class="info-block__link">
+                  <a
+                    class="ico_link"
+                    href="https://www.linkedin.com/in/yaroch/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="info-block__link">
+                  <a
+                    class="ico_link"
+                    href="https://t.me/DmitryYaroch"
+                    target="_blank"
+                  >
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                  </a>
+                </div>
+                <div class="info-block__link">
+                  <a
+                    class="ico_link"
+                    href="https://github.com/YAR0ch"
+                    target="_blank"
+                  >
+                    <i class="fa fa-github-alt" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second-column-->
+        </div>
+      </div>
+    </div>
+
+    <!-- Yarovenko Dmitry Student of Brest State Technical University (BrSTU)  -->
+    <footer>
+      <div class="footer_rs-logo">
+        <a href="https://rs.school/js/"
+          ><img class="rs-logo" src="./img/rs_school_js.svg" alt="rs_logo"
+        /></a>
+      </div>
+      <div class="footer__date">
+        <p>2022</p>
+      </div>
+      <a class="ico-link" href="https://github.com/YAR0ch" target="_blank">
+        <i class="fa fa-copyright"></i>
+        <p>YAR0ch</p>
+      </a>
+    </footer>
+    <script></script>
+  </body>
+</html>
